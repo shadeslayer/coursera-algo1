@@ -4,8 +4,7 @@ You should add the following lines to your ~/.bashrc or ~/.zshrc :
 
     setup_coursera()
     {
-      export CLASSPATH="YOUR/PATH/HERE"
-      test -r $CLASSPATH/algs4/bin/config.sh && source $CLASSPATH/algs4/bin/config.sh
+      test -r /path/to/algs4/bin/config.sh && source /path/to/algs4/bin/config.sh
     }
 
 ## Assignments ##
